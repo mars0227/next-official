@@ -1,0 +1,16 @@
+export const LOGIN = 'LOGIN';
+export const LOGIN_SUCCEEDED = 'LOGIN_SUCCEEDED';
+export const LOGIN_FAILED = 'LOGIN_FAILED';
+
+
+export const LOGOUT = 'LOGOUT';
+export const LOGOUT_SUCCEEDED = 'LOGOUT_SUCCEEDED';
+export const LOGOUT_FAILED = 'LOGOUT_FAILED';
+
+export const SCROLL_TO = 'SCROLL_TO';
+
+export const GET_ARTICLE_SUCCEEDED = 'GET_ARTICLE_SUCCEEDED';
+export const GET_ARTICLE_FAILED = 'GET_ARTICLE_FAILED';
+
+export const GET_POST_SUCCEEDED = 'GET_POST_SUCCEEDED';
+export const GET_POST_FAILED = 'GET_POST_FAILED';

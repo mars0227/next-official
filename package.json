@@ -1,0 +1,40 @@
+{
+  "name": "official-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "export": "next export",
+    "start": "next start",
+    "deploy": "scp -r out/* vircon:static/official_web"
+  },
+  "dependencies": {
+    "@andre.bonna/serverless-nextjs": "^1.8.15",
+    "@ckeditor/ckeditor5-build-classic": "^19.0.2",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@zeit/next-css": "^1.0.1",
+    "bulma": "^0.8.2",
+    "content-type": "^1.0.4",
+    "next": "9.3.6",
+    "node-fetch": "^2.6.0",
+    "query-string": "^6.13.1",
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "react-image-gallery": "^1.0.7",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.7.16",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "serverless-nextjs-plugin": "^2.5.1"
+  }
+}

@@ -1,0 +1,7 @@
+myNextApplication:
+  component: "serverless-next.js@1.14.0"
+  inputs:
+    domain: "sgs-vircon.com"
+    build:
+      env:
+        API: "https://www.itrackcon.com/api/official-site"

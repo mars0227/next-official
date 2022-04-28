@@ -1,0 +1,13 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "sgs-vircon.com",
+  "subdomains": [
+    {
+      "domain": "www.sgs-vircon.com",
+      "distributionId": "E2EP7L852101R8",
+      "url": "https://d1fum8pfxwwmcr.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ]
+}
